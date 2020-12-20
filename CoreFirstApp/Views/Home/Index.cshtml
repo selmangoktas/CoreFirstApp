@@ -1,13 +1,18 @@
-﻿
+﻿@using CoreFirstApp.Models
+@model Product
+ 
+
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Index</h1>
 
+
+
 @DateTime.Now
 
-<h2> Benim Ülkem :  @ViewBag.ulke </h2>
+@*<h2> Benim Ülkem :  @ViewBag.ulke </h2>
 
 slmngoktas@@gmail.com
 
@@ -24,8 +29,12 @@ slmngoktas@@gmail.com
     {
         <li>@ulke</li>
     }
-</ul>
+</ul>*@
 
 
 <a href="/Home/Detail"> Detail </a>
 
+<h1>Ürün Bilgileri</h1>
+<span>Ürün Id: </span>@Model.ID<br />
+<span>Ürün Adı: </span>@Model.Name<br />
+<span>Ürün Fiyatı: </span>@Model.Price TL <br />
