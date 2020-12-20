@@ -8,9 +8,16 @@ namespace CoreFirstApp.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "selman";
+            return View();
         }
+
+        public IActionResult Detail()
+        {
+            return View();
+        }
+
+
     }
 }

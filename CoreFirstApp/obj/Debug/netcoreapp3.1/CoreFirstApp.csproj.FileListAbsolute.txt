@@ -102,3 +102,4 @@ D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\CoreFirstApp.Raz
 D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\CoreFirstApp.RazorTargetAssemblyInfo.cs
 D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\CoreFirstApp.Views.pdb
+D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
