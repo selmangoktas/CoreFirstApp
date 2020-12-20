@@ -10,6 +10,7 @@ namespace CoreFirstApp.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.ulke = "Turkiye";
             return View();
         }
 
@@ -18,6 +19,8 @@ namespace CoreFirstApp.Controllers
             return View();
         }
 
+        //Controllerden View e veri taşıma
+        //1.ViewBAg
 
     }
 }
