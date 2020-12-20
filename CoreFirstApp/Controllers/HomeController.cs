@@ -10,7 +10,11 @@ namespace CoreFirstApp.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.ulke = "Turkiye";
+            ViewBag.ulke = "Türkiye";
+            string[] ulkeler = { "Türkiye", "Almanya", "Çin", "Rusya" };
+            ViewBag.ulkeler = ulkeler;
+
+            ViewData["ulkeler"] = ulkeler;
             return View();
         }
 

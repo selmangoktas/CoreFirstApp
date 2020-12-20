@@ -12,6 +12,20 @@
 slmngoktas@@gmail.com
 
 
+<ul>
+    @foreach (string ulke in ViewBag.ulkeler)
+    {
+        <li>@ulke</li>
+    }
+</ul>
+
+<ul>
+    @foreach (string ulke in (ViewData["ulkeler"] as string[]))
+    {
+        <li>@ulke</li>
+    }
+</ul>
+
 
 <a href="/Home/Detail"> Detail </a>
 
