@@ -22,10 +22,10 @@ namespace CoreFirstApp.Controllers
             ///
             // return RedirectToAction("Detail");
 
-            //Product product = new Product { ID = 1, Name = "Klavye", Picture = "1.jpg", Price = 520 };
-            //Category category = new Category { ID = 1, Name = "Elektronik Kategorisi" };
-            //return View(product);
-
+            Product product = new Product { ID = 1, Name = "Klavye", Picture = "1.jpg", Price = 520 };
+            Category category = new Category { ID = 1, Name = "Elektronik Kategorisi" };
+            return View(product);
+           
 
         }
 

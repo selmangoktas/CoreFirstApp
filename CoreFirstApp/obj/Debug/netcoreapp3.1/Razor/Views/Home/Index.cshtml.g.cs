@@ -20,6 +20,7 @@ using CoreFirstApp.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"53cc274f7d9c32adf13b4546824bacbbf1445c4c", @"/Views/Home/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6d447231c0d93be0f10778dc56e81e65bbd65673", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product>
     {
         #pragma warning disable 1998

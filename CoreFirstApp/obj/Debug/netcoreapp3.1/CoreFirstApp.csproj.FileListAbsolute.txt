@@ -1,6 +1,5 @@
 D:\calismalar\CoreFirstApp\CoreFirstApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\calismalar\CoreFirstApp\CoreFirstApp\bin\Debug\netcoreapp3.1\appsettings.json
-D:\calismalar\CoreFirstApp\CoreFirstApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\calismalar\CoreFirstApp\CoreFirstApp\bin\Debug\netcoreapp3.1\CoreFirstApp.exe
 D:\calismalar\CoreFirstApp\CoreFirstApp\bin\Debug\netcoreapp3.1\CoreFirstApp.deps.json
 D:\calismalar\CoreFirstApp\CoreFirstApp\bin\Debug\netcoreapp3.1\CoreFirstApp.runtimeconfig.json
@@ -103,3 +102,7 @@ D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\Razor\Views\Home
 D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\CoreFirstApp.RazorTargetAssemblyInfo.cs
 D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\CoreFirstApp.Views.pdb
 D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Detail.cshtml.g.cs
+D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\CoreFirstApp.styles.css
+D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\Razor\Views\Contact\ContactForm.cshtml.g.cs
+D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+D:\calismalar\CoreFirstApp\CoreFirstApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
