@@ -28,7 +28,16 @@ namespace CoreFirstApp.Controllers
 		[HttpPost]
 		public IActionResult ContactForm(Contact model)
 		{
-			return View();
+			if (ModelState.IsValid)
+			{
+				//post işlemi yapılacak yer 
+
+				return RedirectToAction("Index");
+			}
+			else
+			{
+				return View();
+			}
 		}
 	}
 }

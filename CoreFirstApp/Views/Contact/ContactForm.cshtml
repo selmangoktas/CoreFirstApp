@@ -3,22 +3,30 @@
 <div class="sixteen wide column">
     <div class="ui segment">
         <form class="ui form" asp-controller="contact" asp-action="contactform" method="post">
+            <div asp-validation-summary="All">
+
+            </div>
+
             <h4 class="ui dividing header">İletişim Formu</h4>
             <div class="field">
                 <label asp-for="@Model.Name"></label>
                 <input asp-for="@Model.Name">
+                <span asp-validation-for="@Model.Name"></span>
             </div>
             <div class="field">
                 <label asp-for="@Model.Surname"></label>
                 <input asp-for="@Model.Surname">
+                <span asp-validation-for="@Model.Surname"></span>
             </div>
             <div class="field">
                 <label asp-for="@Model.Email"></label>
                 <input asp-for="@Model.Email">
+                <span asp-validation-for="@Model.Email"></span>
             </div>
             <div class="field">
                 <label asp-for="@Model.Phone"></label>
                 <input asp-for="@Model.Phone">
+                <span asp-validation-for="@Model.Phone"></span>
             </div>
             <button class="ui button" type="submit">Gönder</button>
         </form>

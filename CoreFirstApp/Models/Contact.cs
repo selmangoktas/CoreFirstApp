@@ -15,7 +15,8 @@ namespace CoreFirstApp.Models
 		public string Surname { get; set; }
 		[Display(Name = "Email "),DataType(DataType.EmailAddress,ErrorMessage ="Lütfen Geçerli Bir Mail Giriniz"), Required(ErrorMessage = "Boş Geçemezssiniz")]
 		public string Email { get; set; }
-		[Display(Name = "Telefon ")]
+		[Display(Name = "Telefon "),RegularExpression("^(?!0+$)(\\+\\d{1,3}[- ]?)?(?!0+$)\\d{10,15}$", ErrorMessage = "Geçersiz Telefon")]
+
 		public string Phone { get; set; }
 	}
 }
